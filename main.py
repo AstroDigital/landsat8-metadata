@@ -1,6 +1,7 @@
 import os
 import json
 import boto
+from boto.utils import get_instance_metadata
 import urllib2
 from boto.s3.key import Key
 import boto3
